@@ -1,4 +1,4 @@
-variable "vpc_lab_vpc_cidr" {
+variable "vpc_cidr" {
   description = "CIDR for the whole VPC"
   default     = "10.101.0.0/16"
 }

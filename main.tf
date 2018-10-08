@@ -1,3 +1,8 @@
+variable "region" {
+  description = "Region in which this is created"
+  default     = "eu-west-1"
+}
+
 terraform {
   backend "s3" {
     bucket                 = "terraform-state-2036"
